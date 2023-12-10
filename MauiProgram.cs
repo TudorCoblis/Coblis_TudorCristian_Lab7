@@ -15,10 +15,6 @@ namespace Coblis_TudorCristian_Lab7
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
-
             return builder.Build();
         }
     }
